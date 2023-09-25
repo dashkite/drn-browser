@@ -1,0 +1,7 @@
+drn:domain/modules/dashkite/io: modules-abcdef123.dashkite.io
+drn:origin/modules/dashkite/io: https://modules-abcdef123.dashkite.io
+drn:s3/modules/dashkite/io: modules-abcdef123.dashkite.io.s3.us-east-1.amazonaws.com
+drn:s3/modules/dashkite/io/us-west-1: modules-abcdef123.dashkite.io.s3.us-west-1.amazonaws.com
+drn:s3-website/modules/dashkite/io: modules-abcdef123.dashkite.io.s3-website-us-east-1.amazonaws.com
+drn:s3-website/modules/dashkite/io/us-west-1: modules-abcdef123.dashkite.io.s3-website-us-west-1.amazonaws.com
+drn:lambda/dashkite/load-media: dashkite-load-media-abcdef123
