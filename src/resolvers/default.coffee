@@ -10,6 +10,3 @@ Default =
     Text.titleCase "#{ namespace } #{ name } #{ mode }"
 
 Resolvers.register Default
-
-# allow other implementations to delegate to the default
-export { Default }

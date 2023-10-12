@@ -1,7 +1,7 @@
 {
-  "name": "@dashkite/drn-sky",
+  "name": "@dashkite/drn-browser",
   "version": "0.0.0",
-  "description": "DRN API For Sky Environments",
+  "description": "DRN API For The Browser",
   "keywords": [],
   "homepage": "https://github.com/dashkite/drn-sky#readme",
   "bugs": {
@@ -37,6 +37,7 @@
     "@dashkite/assert": "^0.1.4",
     "@dashkite/genie": "link:../genie",
     "@dashkite/genie-coffee": "link:../genie-coffee",
+    "@dashkite/genie-modules": "link:../genie-modules",
     "@dashkite/genie-yaml": "link:../genie-yaml"
   },
   "dependencies": {

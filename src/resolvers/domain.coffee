@@ -1,13 +1,16 @@
 import { Resolvers } from "@dashkite/drn"
-import { Default } from "./default"
 
 Resolvers.register
   type: "domain" 
   template: "/domain/{name}/{namespace}/{tld}"
-  describe: Default.describe
+  describe: ( description ) ->
+    Default = Resolvers.dictionary.default
+    Default.describe description
 
 Resolvers.register
   type: "origin"
   template: "/origin/{name}/{namespace}/{tld}"
-  describe: Default.describe
+  describe: ( description ) ->
+    Default = Resolvers.dictionary.default
+    Default.describe description
 
