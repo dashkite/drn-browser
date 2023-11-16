@@ -60,7 +60,7 @@ resolve:
 
   # graphene:
   #   simple:
-  #     uri: drn:graphene/test/foobar
+  #     uri: drn:graphene:db/test/foobar
   #     expect: {}
 
   lambda:
